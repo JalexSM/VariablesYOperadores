@@ -34,17 +34,91 @@ public class Main {
 		    	   System.out.println("usted se encuentra sin empleo ");
 		       }
 		       
-		     //2 OPERACIOBES MATEMATICAS
+		        //2 OPERACIOBES MATEMATICAS
 		       
-		       System.out.println(" ** operaciones matematicas ** ");
+		       
+		       //operaciones con int
+		       System.out.println(" ** operaciones con int** ");
 		       System.out.println(" ingresa el primer numero ");
-		       int primernumero = sc.nextInt();
+		       int primernumeroentero = sc.nextInt();
 		       System.out.println(" ingresa el segundo numero ");
-		       int segundonumero = sc.nextInt();
+		       int segundonumeroentero = sc.nextInt();
 		      
-		       System.out.println("la suma de los numeros es "+  (primernumero+segundonumero) );
-		       System.out.println("la resta de los numeros es "+  (primernumero-segundonumero) );
-		       System.out.println("la multiplicacion de los numeros es "+  (primernumero*segundonumero) );
-		       System.out.println("la division de los numeros es "+  (primernumero/segundonumero) );
+		       System.out.println("la suma de los numeros es "+  (primernumeroentero+segundonumeroentero) ); 
+		       System.out.println("la resta de los numeros es "+  (primernumeroentero-segundonumeroentero) );
+		       System.out.println("la multiplicacion de los numeros es "+  (primernumeroentero*segundonumeroentero) );
+		       if (segundonumeroentero != 0) {
+		    	    System.out.println("la division los numeros es " + (primernumeroentero/segundonumeroentero));
+		    	} else {
+		    	    System.out.println("No se puede dividir entre 0");
+		    	}
+		       
+		       //operaciones con float
+		       System.out.println(" ** operaciones con float ** ");
+		       System.out.println(" ingresa el primer numero ");
+		       float primernumerofloat = sc.nextFloat();
+		       System.out.println(" ingresa el segundo numero ");
+		       float segundonumerofloat = sc.nextFloat();
+		      
+		       System.out.println("la suma de los numeros es "+  (primernumerofloat+segundonumerofloat) ); 
+		       System.out.println("la resta de los numeros es "+  (primernumerofloat-segundonumerofloat) );
+		       System.out.println("la multiplicacion de los numeros es "+  (primernumerofloat*segundonumerofloat) );
+		       if (segundonumerofloat != 0) {
+		    	    System.out.println("la division los numeros es " + (primernumerofloat/segundonumerofloat));
+		    	} else {
+		    	    System.out.println("No se puede dividir entre 0");
+		    	}
+		        
+		      
+		      //operaciones con double 
+		       System.out.println(" ** operaciones con Double ** ");
+		       System.out.println(" ingresa el primer numero ");
+		       double  primernumerodouble = sc.nextDouble();
+		       System.out.println(" ingresa el segundo numero ");
+		       double segundonumerodouble = sc.nextDouble();
+		      
+		       System.out.println("la suma de los numeros es "+  (primernumerodouble+segundonumerodouble) ); 
+		       System.out.println("la resta de los numeros es "+  (primernumerodouble-segundonumerodouble) );
+		       System.out.println("la multiplicacion de los numeros es "+  (primernumerodouble*segundonumerodouble) );
+		       if (segundonumerodouble != 0) {
+		    	    System.out.println("la division los numeros es " + (primernumerodouble/segundonumerodouble));
+		    	} else {
+		    	    System.out.println("No se puede dividir entre 0");
+		    	}
+		       
+		     //operaciones con byte
+		       System.out.println(" ** operaciones con byte ** ");
+		       System.out.println(" ingresa el primer numero ");
+		       short  primernumeroshort = sc.nextByte();
+		       System.out.println(" ingresa el segundo numero ");
+		       short segundonumeroshort = sc.nextByte();
+		      
+		       System.out.println("la suma de los numeros es "+  (primernumeroshort+segundonumeroshort) ); 
+		       System.out.println("la resta de los numeros es "+  (primernumeroshort-segundonumeroshort) );
+		       System.out.println("la multiplicacion de los numeros es "+  (primernumeroshort*segundonumeroshort) );
+		       if (segundonumeroshort != 0) {
+		    	    System.out.println("la division los numeros es " + (primernumeroshort/segundonumeroshort));
+		    	} else {
+		    	    System.out.println("No se puede dividir entre 0");
+		    	}
+		       
+		       
+		       //operaciones con byte
+		       System.out.println(" ** operaciones con byte ** ");
+		       System.out.println(" ingresa el primer numero ");
+		       byte  primernumerobyte = sc.nextByte();
+		       System.out.println(" ingresa el segundo numero ");
+		       byte segundonumerobyte = sc.nextByte();
+		      
+		       System.out.println("la suma de los numeros es "+  (primernumerobyte+segundonumerobyte) ); 
+		       System.out.println("la resta de los numeros es "+  (primernumerobyte-segundonumerobyte) );
+		       System.out.println("la multiplicacion de los numeros es "+  (primernumerobyte*segundonumerobyte) );
+		       if (segundonumerobyte != 0) {
+		    	    System.out.println("la division los numeros es " + (primernumerobyte/segundonumerobyte));
+		    	} else {
+		    	    System.out.println("No se puede dividir entre 0");
+		    	}
+		       
+		       
 	}
 }	
