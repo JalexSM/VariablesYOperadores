@@ -120,5 +120,50 @@ public class Main {
 		    	}
 		       
 		       
+		       //Analisis de division de enteros, la division de enteros muestra un resultado entero no redondea el numero solo quita los decimales y muestra el numero entero 
+		       
+		       // 3 OPERACIONES LOGICAS
+		       
+		       System.out.println(" ** Comparacion de numeros** ");
+		       
+		       
+		       System.out.println("Ingrese el primer número:");
+		        int numero1 = sc.nextInt();
+
+		        System.out.println("Ingrese el segundo número:");
+		        int numero2 = sc.nextInt();
+
+		        // Comparaciones básicas
+		        System.out.println("\n--- Comparaciones ---");
+
+		        System.out.println("¿El primer número es mayor que el segundo? " 
+		                + (numero1 > numero2));
+		        
+		        
+		        System.out.println("¿El primer número es menor que el segundo? " 
+		                + (numero1 < numero2));
+		        
+		        
+		        System.out.println("¿Ambos números son iguales? " 
+		                + (numero1 == numero2));
+		      
+		        
+		        // Operadores lógicos
+		        System.out.println(" ** Operadores Lógicos **");
+
+		        System.out.println("¿El primer número es mayor que 0 Y el segundo es mayor que 0? "
+		                + ((numero1 > 0) && (numero2 > 0)));
+
+		        System.out.println("¿Al menos uno de los números es mayor que 100? "
+		                + ((numero1 > 100) || (numero2 > 100)));
+		       
+		       
+		       
+		       
+		       
+		       
+		       
+		       
+		       
 	}
 }	
