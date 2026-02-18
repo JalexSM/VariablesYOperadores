@@ -158,12 +158,24 @@ public class Main {
 		                + ((numero1 > 100) || (numero2 > 100)));
 		       
 		       
+		        // 	4 CLASIFICACION DE EDAD
+		        
+		        System.out.println(" ** Operadores Lógicos **"); 
+		        
+		        System.out.println("Ingrese la edad de la persona:");
+		        int edad = sc.nextInt();
+
+		        if (edad < 12) {
+		            System.out.println("Clasificación: Niño");
+		        } else if (edad >= 12 && edad <= 17) {
+		            System.out.println("Clasificación: Adolescente");
+		        } else if (edad >= 18 && edad <= 59) {
+		            System.out.println("Clasificación: Adulto");
+		        } else {
+		            System.out.println("Clasificación: Adulto mayor");
+		        }
 		       
-		       
-		       
-		       
-		       
-		       
+
 		       
 	}
 }	
