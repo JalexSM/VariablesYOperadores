@@ -211,5 +211,30 @@ public class Main {
 		                System.out.println("Número inválido. Debe estar entre 1 y 7.");
 		        }
 		       
+		        
+			     // 6 VERIFICACION DE ACCESO 
+			        
+			        String usuarioRegistrado = "admin";
+			        String contrasenaRegistrada = "1234"
+			       		 
+			       		 ;
+			        System.out.println("Ingrese su usuario:");
+			        String usuarioIngresado = sc.nextLine();
+			        System.out.println("Ingrese su contraseña:");
+			        String contrasenaIngresada = sc.nextLine();
+			        
+			        if (usuarioIngresado.equals(usuarioRegistrado)) {
+
+			            if (contrasenaIngresada.equals(contrasenaRegistrada)) {
+			                System.out.println("Acceso concedido");
+			            } else {
+			                System.out.println("Contraseña incorrecta");
+			            }
+
+			        } else {
+			            System.out.println("Usuario no registrado");
+			        }
+		        
+		        
 	}
 }	
