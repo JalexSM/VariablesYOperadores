@@ -160,7 +160,7 @@ public class Main {
 		       
 		        // 	4 CLASIFICACION DE EDAD
 		        
-		        System.out.println(" ** Operadores Lógicos **"); 
+		        System.out.println(" ** Clasificacion de edad **"); 
 		        
 		        System.out.println("Ingrese la edad de la persona:");
 		        int edad = sc.nextInt();
@@ -175,7 +175,41 @@ public class Main {
 		            System.out.println("Clasificación: Adulto mayor");
 		        }
 		       
+		        
+		        // 5 DIA DE LA SEMANA 
+		        
+		        System.out.println(" ** Dia de la semana  **"); 
+		        
+		        System.out.println("Ingrese un número del 1 al 7:");
+		        int numero = sc.nextInt();
 
+		        
+		        
+		        switch (numero) {
+		            case 1:
+		                System.out.println("Día: Lunes");
+		                break;
+		            case 2:
+		                System.out.println("Día: Martes");
+		                break;
+		            case 3:
+		                System.out.println("Día: Miércoles");
+		                break;
+		            case 4:
+		                System.out.println("Día: Jueves");
+		                break;
+		            case 5:
+		                System.out.println("Día: Viernes");
+		                break;
+		            case 6:
+		                System.out.println("Día: Sábado");
+		                break;
+		            case 7:
+		                System.out.println("Día: Domingo");
+		                break;
+		            default:
+		                System.out.println("Número inválido. Debe estar entre 1 y 7.");
+		        }
 		       
 	}
 }	
