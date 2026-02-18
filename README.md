@@ -1,4 +1,4 @@
-\# Análisis de division de enteros 
+# Análisis de division de enteros 
 
 la division de enteros muestra un resultado entero no redondea el numero solo quita los decimales y muestra el numero entero 
 
@@ -6,9 +6,9 @@ la division de enteros muestra un resultado entero no redondea el numero solo qu
 
 
 
-\# 1) Respuestas Teóricas
+# 1) Respuestas Teóricas
 
-\## 1. ¿Para qué se utilizan los operadores lógicos en programación?
+## 1. ¿Para qué se utilizan los operadores lógicos en programación?
 
 
 
@@ -18,7 +18,7 @@ Los operadores lógicos se utilizan para evaluar y combinar condiciones booleana
 
 
 
-\## 2. ¿Por qué es importante declarar correctamente el tipo de dato de una variable?
+## 2. ¿Por qué es importante declarar correctamente el tipo de dato de una variable?
 
 
 
@@ -28,9 +28,9 @@ Es importante porque define qué tipo de información puede almacenar la variabl
 
 
 
-\# 2) Justificación Técnica
+# 2) Justificación Técnica
 
-\## Clasificación de edad
+## Clasificación de edad
 
 Para la clasificación de la edad se utilizó la estructura de control if-else.
 
@@ -46,7 +46,7 @@ En cambio, if-else permite utilizar operadores relacionales como <, >= y <=, lo 
 
 
 
-\## Día de la Semana
+## Día de la Semana
 
 Para resolver el ejercicio "Día de la Semana" se utilizó la estructura de control switch.
 
@@ -62,7 +62,7 @@ Si se hubiera utilizado if-else, el código sería más extenso y menos legible,
 
 
 
-\## Verificación de acceso
+## Verificación de acceso
 
 En este programa se utilizó la estructura condicional if-else.
 
